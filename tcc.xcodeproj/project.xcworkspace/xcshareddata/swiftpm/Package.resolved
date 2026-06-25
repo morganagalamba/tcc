@@ -1,0 +1,33 @@
+{
+  "originHash" : "2c40c50a73e9c1fd48bf688d219488ba971d8dd42a49df0f40cff08d5e37a122",
+  "pins" : [
+    {
+      "identity" : "accessiblepreview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/samuelbrasileiro/AccessiblePreview.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "db791ba8fd6f68bdce834bdc322c8cbf55d611f7"
+      }
+    },
+    {
+      "identity" : "codeforall",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexandrazarzar/CodeForAll",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2d90f8d52446c3a3366d3a80e97b7841e5a1ec70"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "2bc86522d115234d1f588efe2bcb4ce4be8f8b82",
+        "version" : "510.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

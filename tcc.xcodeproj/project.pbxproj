@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D708CF592F02EEA20048A5EC /* AccessiblePreview in Frameworks */ = {isa = PBXBuildFile; productRef = D708CF582F02EEA20048A5EC /* AccessiblePreview */; };
+		D708CF622F0436B50048A5EC /* CodeForAll in Frameworks */ = {isa = PBXBuildFile; productRef = D708CF612F0436B50048A5EC /* CodeForAll */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D708CF492F02ED6D0048A5EC /* tcc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tcc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D708CF592F02EEA20048A5EC /* AccessiblePreview in Frameworks */,
+				D708CF622F0436B50048A5EC /* CodeForAll in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = tcc;
 			packageProductDependencies = (
+				D708CF582F02EEA20048A5EC /* AccessiblePreview */,
+				D708CF612F0436B50048A5EC /* CodeForAll */,
 			);
 			productName = tcc;
 			productReference = D708CF492F02ED6D0048A5EC /* tcc.app */;
@@ -94,6 +103,10 @@
 			);
 			mainGroup = D708CF402F02ED6C0048A5EC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D708CF572F02EEA20048A5EC /* XCRemoteSwiftPackageReference "AccessiblePreview" */,
+				D708CF602F0436B50048A5EC /* XCRemoteSwiftPackageReference "CodeForAll" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D708CF4A2F02ED6D0048A5EC /* Products */;
 			projectDirPath = "";
@@ -332,6 +345,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D708CF572F02EEA20048A5EC /* XCRemoteSwiftPackageReference "AccessiblePreview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/samuelbrasileiro/AccessiblePreview.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D708CF602F0436B50048A5EC /* XCRemoteSwiftPackageReference "CodeForAll" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexandrazarzar/CodeForAll";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D708CF582F02EEA20048A5EC /* AccessiblePreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D708CF572F02EEA20048A5EC /* XCRemoteSwiftPackageReference "AccessiblePreview" */;
+			productName = AccessiblePreview;
+		};
+		D708CF612F0436B50048A5EC /* CodeForAll */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D708CF602F0436B50048A5EC /* XCRemoteSwiftPackageReference "CodeForAll" */;
+			productName = CodeForAll;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D708CF412F02ED6C0048A5EC /* Project object */;
 }

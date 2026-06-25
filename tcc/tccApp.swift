@@ -11,7 +11,16 @@ import SwiftUI
 struct tccApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Fase A", systemImage: "exclamationmark.triangle")
+                    }
+                ContentViewFaseB()
+                    .tabItem {
+                        Label("Fase B", systemImage: "checkmark.seal")
+                    }
+            }
         }
     }
 }
